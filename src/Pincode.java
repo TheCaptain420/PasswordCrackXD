@@ -2,14 +2,14 @@ public class Pincode {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        int[] symboler = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] symboler = {0,1,2,3,4,5,6,7,8,9};
         int[] kode = new int[6];
-        kode[0] = 2;
-        kode[1] = 2;
-        kode[2] = 1;
-        kode[3] = 2;
-        kode[4] = 5;
-        kode[5] = 7;
+        kode[0] = 1;
+        kode[1] = 3;
+        kode[2] = 5;
+        kode[3] = 6;
+        kode[4] = 2;
+        kode[5] = 8;
 
 
         for (int i = 0; i < symboler.length; i++) {
